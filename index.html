@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.jpeg" type="image/x-icon" />
+    <title>Portfolio | Vishal Pal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div hidden id="pop-up" class="pop-up-cont" style="z-index: 2">
+      <div class="pop-up">
+        <div class="pop-icon">
+          <i class="fa-solid fa-x"></i>
+        </div>
+        <div class="pop-data">
+          <p>Hey there, website is under maintenance</p>
+          <a href="#" class="primary-button">Wanna Contribute &lt;/&gt;</a>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="ask-btn">
+      <a title="Contact" href="#contact" class="primary-button"
+        >Ask ?<i class="fa-solid fa-messages-question fa-2xl"></i
+      ></a>
+    </div> -->
+    <div id="scroll-btn" class="scroll-top">
+      <a title="Scroll to top" href="#" class="primary-button"
+        ><i class="fa-solid fa-angles-up fa-bounce"></i
+      ></a>
+    </div>
+
+    <div class="top-banner">
+      <div class="container">
+        <div class="banner-text">
+          I am open to work on projects related to my Skills.
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+
+    <nav class="main-nav">
+      <div class="container flex nav-container">
+        <div class="nav-links flex">
+          <ul class="nav-li flex">
+            <li><a href="#about-me" class="hover-link active">About</a></li>
+            <li><a href="#skills" class="hover-link">Skills</a></li>
+            <li><a href="#projects" class="hover-link">Projects</a></li>
+          </ul>
+        </div>
+        <div class="nav-btn">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <a href="#contact" class="hover-link primary-button">Get in Touch</a>
+            </button>
+            <div class="dropdown-content">
+              <a href="tel:+919896968902"
+                >Call&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                  class="fa-solid fa-phone fa-shake"
+                ></i
+              ></a>
+              <a href="mailto:pal7102002@gmail.com"
+                >Mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                  class="fa-sharp fa-solid fa-envelope-circle-check fa-bounce"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section 1 of info -->
+
+    <section class="sec-1">
+      <svg class="svg1" height="100" width="100">
+        <circle cx="50" cy="50" r="50" fill="#2EB4A7" />
+      </svg>
+      <div
+        class="container flex sec-1-container"
+        style="text-align: center; margin-block: 60px"
+      >
+        <div class="about-me">
+          <h1>Welcome,</h1>
+          <h1 class="head-2">I'm <span id="sec1-name">Vishal Pal</span></h1>
+          <p style="padding-inline: 100px">
+            A well-organized, creative and goal-oriented graduate possessing
+            excellent communication, problem-solving and leadership skills with
+            a flair to explore suitable avenues in Computer Science Engineering
+            while developing advanced projects with efficiency and quality.
+          </p>
+          <div class="social-handles">
+            <a href="https://github.com/Vishal987472" target="_blank" rel="noopener noreferrer"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/vishal-pal-2209452b5/" target="_blank" rel="noopener noreferrer"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://www.instagram.com/vi.shal_p/?hl=en" target="_blank" rel="noopener noreferrer"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <div class="sec1-btn flex" style="justify-content: center">
+            <a
+              href="./resume/Vishal_Resume.pdf"
+              download="Resume-Vishal-Pal.pdf"
+              class="secondary-button"
+              >Resume</a
+            >
+            <p>or</p>
+            <a href="#projects" class="primary-button">Watch my Work</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec2-skills" id="skills">
+      <div class="container sec2-skill-container flex">
+        <div class="skill-tittle">-------My Skills</div>
+        <div class="skill-header flex">
+          <h1>
+            What My Programming<br />
+            Skills Included
+          </h1>
+          <p>
+            I have great skills of programming in Java, Spring Boot, Microservices, JavaScript,
+            Node.js, Express.js, SQL, and React.
+          </p>
+          <div class="double-btn flex">
+            <div class="btn-skills btn-active">
+              <p>Skills</p>
+            </div>
+            <div class="btn-tools">
+              <p>Tools</p>
+            </div>
+          </div>
+        </div>
+        <div class="skill-images flex">
+          <img
+            style="border-radius: 50%"
+            src="./img/sec2-java.png"
+            alt="Java"
+            srcset=""
+          />
+          <img
+            style="border-radius: 10%"
+            src="./img/spring-boot.svg"
+            alt="Spring Boot"
+            srcset=""
+          />
+          <img src="./img/node-removebg-preview.png" alt="Node.js" srcset="" />
+          <img
+            style="border-radius: 50%"
+            src="./img/express.png"
+            alt="Express.js"
+            srcset=""
+          />
+          <img
+            src="https://th.bing.com/th/id/R.f81a6f373c244b1f70f4b7402b5ab372?rik=rbXh4ieLuKt%2bmA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fReact_logo_logotype_emblem.png&ehk=QhGOkKcUKCU7FBQgHOajOiJqJBACUTD2Ni6LsfqzCEA%3d&risl=&pid=ImgRaw&r=0"
+            alt="React"
+            srcset=""
+          />
+        </div>
+        <div class="tools-images flex">
+          <img src="./img/sec4-software-vs-code.png" alt="VS Code" srcset="" />
+          <img
+            style="size: cover; border-radius: 50%"
+            src="./img/download.png"
+            alt="IntelliJ IDEA"
+            srcset=""
+          />          
+          <img
+            style="border-radius: 50%"
+            src="./img/download1.png"
+            alt="IntelliJ IDEA"
+            srcset=""
+          />
+          <img
+            style="border-radius: 50%"
+            src="./img/download.jfif"
+            alt="DBeaver"
+            srcset=""
+          />
+          <img
+            style="border-radius: 50%"
+            src="./img/postman.png"
+            alt="Postman"
+            srcset=""
+          />
+          <img src="./img/sec4-software-github.png" alt="GitHub" srcset="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="sec3-projects" id="projects">
+      <h1 class="se3-heading">My Projects</h1>
+      <div class="container flex sec3-container">
+
+                <div class="pro">
+          <img
+            style="border-radius: 50%"
+            src="./img/postgres].png"
+            alt="Java"
+          />
+          <img style="border-radius: 10%" src="./img/spring-boot.svg" alt="Spring Boot" />
+          <img style="border-radius: 50%" src="./img/sec2-java.png" alt="SQL" />
+          <h1>Hospital Management System</h1>
+          <p>
+            A comprehensive hospital management system built with Java, Spring Boot,
+            and MySQL. Features include patient registration, appointment scheduling,
+            doctor management, medical records tracking, prescription management, and
+            role-based access control for admins, doctors, and staff.
+          </p>
+          <div class="btn-div flex">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Vishal987472"
+              class="secondary-button project-btn"
+              >Source Code</a
+            >
+          </div>
+        </div>
+
+        <div class="pro">
+          <img
+            style="border-radius: 50%"
+            src="./img/sec2-react.jpeg"
+            alt="React"
+          />
+          <img style="border-radius: 50%" src="./img/node-removebg-preview.png" alt="Node.js" />
+          <img style="border-radius: 50%" src="./img/express.png" alt="Express.js" />
+          <h1>PopCornHub</h1>
+          <p>
+            A full-stack movie ticket booking platform built using React,
+            Express.js, MongoDB Atlas and TMDB API. Features include real-time
+            movie data, Razorpay payment integration, JWT authentication with
+            Redis caching, seat selection and booking management.
+          </p>
+          <div class="btn-div flex">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              class="secondary-button project-btn"
+              href="https://github.com/Vishal987472/popcornhub"
+              >Source Code</a
+            >
+          </div>
+        </div>
+
+
+        <div class="pro">
+          <img
+            style="border-radius: 50%"
+            src="./img/sec2-react.jpeg"
+            alt="React"
+          />
+          <img style="border-radius: 50%" src="./img/node-removebg-preview.png" alt="Node.js" />
+          <img style="border-radius: 50%" src="./img/express.png" alt="Express.js" />
+          <h1>Carbo</h1>
+          <p>
+            A carbon footprint tracking web app built using React, Tailwind CSS,
+            Express.js and MongoDB. Includes modular carbon calculator,
+            real-time data visualization dashboard, RESTful APIs, dark mode, and
+            performance optimized UI/UX.
+          </p>
+          <div class="btn-div flex">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Vishal987472/carbo"
+              class="secondary-button project-btn"
+              >Source Code</a
+            >
+          </div>
+        </div>
+
+        <div class="pro">
+          <img src="img/sec2-css.png" alt="CSS" />
+          <img src="img/sec2-html5.png" alt="HTML5" />
+          <img src="img/sec2-js.png" alt="JavaScript" />
+          <h1>Shopaholic</h1>
+          <p>
+            A feature-rich e-commerce website built using PHP, MySQL, HTML/CSS
+            and JavaScript. Includes role-based admin panel, product management,
+            inventory tracking, secure CRUD operations, and optimized database
+            queries.
+          </p>
+          <div class="btn-div flex">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Vishal987472/Shopaholics"
+              class="secondary-button project-btn"
+              >Source Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <!-- Section about me -->
+
+    <section id="about-me" class="sec4-about-me">
+      <div class="container about-me-container">
+        <div class="first-container flex">
+          <div class="sec4-about-img">
+            <img
+              style="width: 530px; height: 530px"
+              src="./img/sec4-about.png"
+              alt="Vishal Pal"
+            />
+          </div>
+          <div class="about-head">
+            <h1>Web Developer</h1>
+            <h3>About Me</h3>
+            <ul>
+              <li><i class="fa-solid fa-user"></i> Name: Vishal Pal</li>
+              <li>
+                <i class="fa-solid fa-laptop-code"></i> Occupation: Software
+                Engineer
+              </li>
+              <li><i class="fa-solid fa-graduation-cap"></i> Studying: MCA</li>
+              <li>
+                <i class="fa-solid fa-lightbulb"></i> Interested in: Full Stack
+                Development
+              </li>
+            </ul>
+            <p>
+              Hello! I am a passionate Software Developer currently focusing on
+              studying Spring Boot and microservices to enhance my skills in web
+              development. I enjoy building user-friendly and visually appealing
+              websites that provide a great user experience.
+            </p>
+            <div style="margin-block: 20px" class="line"></div>
+          </div>
+        </div>
+        <div class="second-container flex">
+          <a href="#"><i class="fa-solid fa-calendar-days"></i>07-10-2002</a>
+          <a
+            href="https://www.google.com/maps/place/Karnal,+Haryana/@29.6853688,76.9060295/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-sharp fa-solid fa-location-dot"></i>Karnal, Haryana</a
+          >
+          <a href="tel:+919896968902"
+            ><i class="fa-sharp fa-solid fa-phone"></i>+91 9896968902</a
+          >
+          <a href="#contact"
+            ><i class="fa-solid fa-paper-plane"></i>Mail | Telegram | Instagram
+            | LinkedIn</a
+          >
+          <a
+            href="https://www.google.com/maps/search/chandigarh+university/@30.7709198,76.5746989,18.26z?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-solid fa-user-graduate"></i>Chandigarh University,
+            Gharuan</a
+          >
+        </div>
+
+        <div class="line"></div>
+
+        <div class="sec4-software">
+          <h1>Software</h1>
+          <div class="rate-software">
+            <p>Click images to see the skill level</p>
+            <span> Skills :</span>
+            <div class="span-word">
+              <i class="clr fa-solid fa-star"></i>
+              <i class="clr fa-solid fa-star"></i>
+              <i class="clr fa-solid fa-star"></i>
+              <i class="clr fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="sec4-image flex">
+            <a class="01"
+              ><img
+                style="width: 70px; height: 60px"
+                src="https://th.bing.com/th/id/OIP.PHBTJoshbg880IH9z_PB6QHaHa?rs=1&pid=ImgDetMain"
+                alt="JavaScript"
+            /></a>
+            <a class="02"
+              ><img
+                style="width: 60px; height: 60px"
+                src="https://oneteamsolutions.in/blogoneteam/wp-content/uploads/2020/05/REACT-JS-KOCHI.png"
+                alt="React"
+            /></a>
+            <a class="03"
+              ><img
+                style="width: 50px; height: 50px"
+                src="./img/sec2-java.png"
+                alt="Java"
+            /></a>
+            <a class="04"
+              ><img
+                style="width: 50px; height: 50px"
+                src="./img/spring-boot.svg"
+                alt="Spring Boot"
+            /></a>
+            <a class="05"
+              ><img
+                style="width: 50px; height: 50px"
+                src="./img/sec4-software-github.png"
+                alt="GitHub"
+            /></a>
+          </div>
+        </div>
+        <div class="line"></div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <hr style="min-width: 957px" />
+
+    <section class="sec5-contact" id="contact">
+      <div class="container sec5-container">
+        <div class="sec5-heading">
+          <h1>Contact Me</h1>
+
+          <a href="https://www.google.com/maps/place/Karnal,+Haryana/" target="_blank" rel="noopener noreferrer" class="sec5-location"
+            ><i class="fa-sharp fa-solid fa-location-dot"></i
+            >&nbsp;&nbsp;&nbsp;&nbsp;Karnal, Haryana</a
+          ><br />
+
+          <a href="tel:+919896968902" class="sec5-location"
+            ><i class="fa-sharp fa-solid fa-phone"></i
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 9896968902</a
+          >
+          <br />
+
+          <a href="mailto:pal987472@gmail.com" class="sec5-location"
+            ><i class="fa-sharp fa-solid fa-envelope-circle-check"></i
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pal987472@gmail.com</a
+          >
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <hr style="min-width: 957px" />
+    <br /><br />
+
+    <section class="footer">
+      <div class="container footer-container">
+        <h1>Thanks For Visiting</h1>
+        <div class="social-handles">
+          <a href="https://github.com/Vishal987472" target="_blank" rel="noopener noreferrer"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/vishal-pal-2209452b5/" target="_blank" rel="noopener noreferrer"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/vi.shal_p/?hl=en" target="_blank" rel="noopener noreferrer"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section style="height: 10vh"></section>
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f9c54bfd45.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
